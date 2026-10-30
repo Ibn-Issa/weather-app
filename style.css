@@ -1,0 +1,52 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Element Reset */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: green;
+  color: #fff;
+}
+
+/* Styles */
+#weatherApp {
+  margin: 4rem auto;
+  width: 35rem;
+  height: auto;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#location-input {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  margin: 2.5rem 0;
+  width: 80%;
+  font-size: 2rem;
+}
+
+#weather-data {
+  margin: 0 auto;
+  width: 30rem;
+  padding: 2.5rem;
+  border-radius: 5px;
+  font-size: 2rem;
+}
